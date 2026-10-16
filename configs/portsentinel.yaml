@@ -1,0 +1,11 @@
+server:
+  listen: "127.0.0.1:8081"
+  max_concurrent: 4
+checks:
+  timeout: 5s
+  allowed_ports: [80, 443]
+  allow_cidrs: []
+  deny_cidrs: []
+log:
+  format: text
+  level: info
